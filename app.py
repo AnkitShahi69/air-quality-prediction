@@ -15,7 +15,7 @@ def predict():
     cgpa = request.form.get('cgpa')
     iq = request.form.get('iq')
     profile_score = request.form.get('profile_score')
-     result = "YES"
+    result = "YES"
 
     return jsonify({'placement': result})
 
